@@ -1,342 +1,324 @@
 <!DOCTYPE html>
 
-<html class="dark" lang="en"><head>
+<html class="light" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>ALCHEMIST_OS // DIGITAL_ALCHEMIST</title>
+<title>H&amp;J Soft | Architecting Digital Legacies</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;family=JetBrains+Mono:wght@400;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            "colors": {
-                "primary-container": "#00e5ff",
-                "on-surface-variant": "#bac9cc",
-                "surface-container-high": "#2a2a2b",
-                "primary-fixed": "#9cf0ff",
-                "on-secondary-fixed-variant": "#3c4d00",
-                "outline-variant": "#3b494c",
-                "secondary": "#ffffff",
-                "on-tertiary-container": "#622be5",
-                "primary": "#c3f5ff",
-                "on-primary-fixed-variant": "#004f58",
-                "tertiary": "#f1e9ff",
-                "on-tertiary": "#370096",
-                "outline": "#849396",
-                "surface-variant": "#353436",
-                "on-tertiary-fixed": "#20005f",
-                "surface-bright": "#3a393a",
-                "tertiary-fixed-dim": "#cdbdff",
-                "surface-container-highest": "#353436",
-                "inverse-surface": "#e5e2e3",
-                "surface-dim": "#131314",
-                "on-primary-fixed": "#001f24",
-                "on-secondary-container": "#556d00",
-                "inverse-primary": "#006875",
-                "secondary-container": "#c3f400",
-                "surface-container-lowest": "#0e0e0f",
-                "on-tertiary-fixed-variant": "#4f00d0",
-                "surface": "#131314",
-                "on-background": "#e5e2e3",
-                "error-container": "#93000a",
-                "surface-container-low": "#1c1b1c",
-                "on-error": "#690005",
-                "primary-fixed-dim": "#00daf3",
-                "tertiary-container": "#d6c9ff",
-                "on-error-container": "#ffdad6",
-                "error": "#ffb4ab",
-                "on-primary-container": "#00626e",
-                "surface-container": "#201f20",
-                "on-surface": "#e5e2e3",
-                "on-primary": "#00363d",
-                "tertiary-fixed": "#e8deff",
-                "background": "#131314",
-                "inverse-on-surface": "#313031",
-                "on-secondary": "#283500",
-                "secondary-fixed": "#c3f400",
-                "surface-tint": "#00daf3",
-                "secondary-fixed-dim": "#abd600",
-                "on-secondary-fixed": "#161e00"
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-error-container": "#93000a",
+                      "secondary": "#515f74",
+                      "tertiary-fixed-dim": "#7ad5dd",
+                      "surface-tint": "#296195",
+                      "error": "#ba1a1a",
+                      "on-secondary": "#ffffff",
+                      "on-surface": "#191c1f",
+                      "secondary-container": "#d5e3fc",
+                      "surface-container": "#ededf2",
+                      "on-tertiary": "#ffffff",
+                      "on-secondary-fixed": "#0d1c2e",
+                      "on-error": "#ffffff",
+                      "surface-container-low": "#f3f3f8",
+                      "on-tertiary-fixed": "#002022",
+                      "secondary-fixed-dim": "#b9c7df",
+                      "on-secondary-fixed-variant": "#3a485b",
+                      "primary-fixed": "#d0e4ff",
+                      "inverse-on-surface": "#f0f0f5",
+                      "on-surface-variant": "#42474f",
+                      "on-primary-fixed-variant": "#00497b",
+                      "tertiary-container": "#005055",
+                      "surface": "#f9f9fe",
+                      "outline-variant": "#c1c7d0",
+                      "primary": "#003358",
+                      "inverse-surface": "#2e3034",
+                      "on-tertiary-container": "#69c4cd",
+                      "on-secondary-container": "#57657a",
+                      "on-primary-fixed": "#001d35",
+                      "tertiary-fixed": "#96f1fa",
+                      "on-primary": "#ffffff",
+                      "surface-variant": "#e1e2e7",
+                      "on-primary-container": "#87baf3",
+                      "surface-container-lowest": "#ffffff",
+                      "primary-container": "#004a7c",
+                      "surface-bright": "#f9f9fe",
+                      "error-container": "#ffdad6",
+                      "surface-dim": "#d9dade",
+                      "primary-fixed-dim": "#9ccaff",
+                      "inverse-primary": "#9ccaff",
+                      "outline": "#727780",
+                      "on-tertiary-fixed-variant": "#004f54",
+                      "surface-container-high": "#e7e8ed",
+                      "background": "#f9f9fe",
+                      "on-background": "#191c1f",
+                      "tertiary": "#00373b",
+                      "surface-container-highest": "#e1e2e7",
+                      "secondary-fixed": "#d5e3fc"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "fontFamily": {
+                      "headline": ["Manrope"],
+                      "body": ["Inter"],
+                      "label": ["Inter"]
+              }
             },
-            "borderRadius": {
-                "DEFAULT": "0px",
-                "lg": "0px",
-                "xl": "0px",
-                "full": "9999px"
-            },
-            "fontFamily": {
-                "headline": ["Space Grotesk"],
-                "body": ["Inter"],
-                "label": ["JetBrains Mono"]
-            }
           },
-        },
-      }
-    </script>
+        }
+      </script>
 <style>
-        body {
-            background-image: 
-                radial-gradient(circle at 2px 2px, rgba(195, 244, 0, 0.05) 1px, transparent 0);
-            background-size: 32px 32px;
-            cursor: crosshair;
+        html {
+            scroll-behavior: smooth;
         }
-        .glass-card {
-            background: rgba(53, 52, 54, 0.4);
-            backdrop-filter: blur(20px);
-            border: 1px solid rgba(0, 229, 255, 0.1);
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
         }
-        .glow-primary:hover {
-            box-shadow: 0 0 20px rgba(0, 229, 255, 0.2);
+        .signature-gradient {
+            background: linear-gradient(135deg, #003358 0%, #004a7c 100%);
         }
-        .glow-text-lime {
-            text-shadow: 0 0 10px rgba(195, 244, 0, 0.5);
+        .glass-nav {
+            background: rgba(249, 249, 254, 0.7);
+            backdrop-filter: blur(24px);
         }
     </style>
-<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}[type='text'],input:where(:not([type])),[type='email'],[type='url'],[type='password'],[type='number'],[type='date'],[type='datetime-local'],[type='month'],[type='search'],[type='tel'],[type='time'],[type='week'],[multiple],textarea,select{-webkit-appearance:none;appearance:none;background-color:#fff;border-color:#6b7280;border-width:1px;border-radius:0px;padding-top:0.5rem;padding-right:0.75rem;padding-bottom:0.5rem;padding-left:0.75rem;font-size:1rem;line-height:1.5rem;--tw-shadow:0 0 #0000;}[type='text']:focus, input:where(:not([type])):focus, [type='email']:focus, [type='url']:focus, [type='password']:focus, [type='number']:focus, [type='date']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='week']:focus, [multiple]:focus, textarea:focus, select:focus{outline:2px solid transparent;outline-offset:2px;--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);border-color:#2563eb}input::placeholder,textarea::placeholder{color:#6b7280;opacity:1}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-date-and-time-value{min-height:1.5em;text-align:inherit}::-webkit-datetime-edit{display:inline-flex}::-webkit-datetime-edit,::-webkit-datetime-edit-year-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-meridiem-field{padding-top:0;padding-bottom:0}select{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");background-position:right 0.5rem center;background-repeat:no-repeat;background-size:1.5em 1.5em;padding-right:2.5rem;print-color-adjust:exact}[multiple],[size]:where(select:not([size="1"])){background-image:initial;background-position:initial;background-repeat:unset;background-size:initial;padding-right:0.75rem;print-color-adjust:unset}[type='checkbox'],[type='radio']{-webkit-appearance:none;appearance:none;padding:0;print-color-adjust:exact;display:inline-block;vertical-align:middle;background-origin:border-box;-webkit-user-select:none;user-select:none;flex-shrink:0;height:1rem;width:1rem;color:#2563eb;background-color:#fff;border-color:#6b7280;border-width:1px;--tw-shadow:0 0 #0000}[type='checkbox']{border-radius:0px}[type='radio']{border-radius:100%}[type='checkbox']:focus,[type='radio']:focus{outline:2px solid transparent;outline-offset:2px;--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:2px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow)}[type='checkbox']:checked,[type='radio']:checked{border-color:transparent;background-color:currentColor;background-size:100% 100%;background-position:center;background-repeat:no-repeat}[type='checkbox']:checked{background-image:url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");}@media (forced-colors: active) {[type='checkbox']:checked{-webkit-appearance:auto;appearance:auto}}[type='radio']:checked{background-image:url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='3'/%3e%3c/svg%3e");}@media (forced-colors: active) {[type='radio']:checked{-webkit-appearance:auto;appearance:auto}}[type='checkbox']:checked:hover,[type='checkbox']:checked:focus,[type='radio']:checked:hover,[type='radio']:checked:focus{border-color:transparent;background-color:currentColor}[type='checkbox']:indeterminate{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3e%3cpath stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3e%3c/svg%3e");border-color:transparent;background-color:currentColor;background-size:100% 100%;background-position:center;background-repeat:no-repeat;}@media (forced-colors: active) {[type='checkbox']:indeterminate{-webkit-appearance:auto;appearance:auto}}[type='checkbox']:indeterminate:hover,[type='checkbox']:indeterminate:focus{border-color:transparent;background-color:currentColor}[type='file']{background:unset;border-color:inherit;border-width:0;border-radius:0;padding:0;font-size:unset;line-height:inherit}[type='file']:focus{outline:1px solid ButtonText;outline:1px auto -webkit-focus-ring-color}.pointer-events-none{pointer-events:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.bottom-0{bottom:0px}.left-0{left:0px}.right-0{right:0px}.top-0{top:0px}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-12{margin-bottom:3rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.mt-20{margin-top:5rem}.mt-4{margin-top:1rem}.line-clamp-2{overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-3{height:0.75rem}.h-48{height:12rem}.h-80{height:20rem}.h-\[1px\]{height:1px}.h-\[2px\]{height:2px}.h-full{height:100%}.w-3{width:0.75rem}.w-8{width:2rem}.w-\[14\.2\%\]{width:14.2%}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-\[1440px\]{max-width:1440px}@keyframes ping{75%, 100%{transform:scale(2);opacity:0}}.animate-ping{animation:ping 1s cubic-bezier(0, 0, 0.2, 1) infinite}.cursor-crosshair{cursor:crosshair}.select-none{-webkit-user-select:none;user-select:none}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-12{gap:3rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.space-y-12 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(3rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(3rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-8 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded-full{border-radius:9999px}.border{border-width:1px}.border-0{border-width:0px}.border-b{border-bottom-width:1px}.border-b-2{border-bottom-width:2px}.border-l-2{border-left-width:2px}.border-l-4{border-left-width:4px}.border-t{border-top-width:1px}.border-\[\#00e5ff\]{--tw-border-opacity:1;border-color:rgb(0 229 255 / var(--tw-border-opacity, 1))}.border-outline{--tw-border-opacity:1;border-color:rgb(132 147 150 / var(--tw-border-opacity, 1))}.border-outline-variant{--tw-border-opacity:1;border-color:rgb(59 73 76 / var(--tw-border-opacity, 1))}.border-primary-container{--tw-border-opacity:1;border-color:rgb(0 229 255 / var(--tw-border-opacity, 1))}.border-secondary-fixed{--tw-border-opacity:1;border-color:rgb(195 244 0 / var(--tw-border-opacity, 1))}.border-transparent{border-color:transparent}.border-white\/5{border-color:rgb(255 255 255 / 0.05)}.bg-\[\#0e0e0f\]{--tw-bg-opacity:1;background-color:rgb(14 14 15 / var(--tw-bg-opacity, 1))}.bg-\[\#131314\]\/80{background-color:rgb(19 19 20 / 0.8)}.bg-background{--tw-bg-opacity:1;background-color:rgb(19 19 20 / var(--tw-bg-opacity, 1))}.bg-primary-container{--tw-bg-opacity:1;background-color:rgb(0 229 255 / var(--tw-bg-opacity, 1))}.bg-secondary-fixed{--tw-bg-opacity:1;background-color:rgb(195 244 0 / var(--tw-bg-opacity, 1))}.bg-surface-container-highest{--tw-bg-opacity:1;background-color:rgb(53 52 54 / var(--tw-bg-opacity, 1))}.bg-surface-container-low{--tw-bg-opacity:1;background-color:rgb(28 27 28 / var(--tw-bg-opacity, 1))}.bg-surface-container-lowest{--tw-bg-opacity:1;background-color:rgb(14 14 15 / var(--tw-bg-opacity, 1))}.bg-white\/5{background-color:rgb(255 255 255 / 0.05)}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.bg-gradient-to-t{background-image:linear-gradient(to top, var(--tw-gradient-stops))}.from-primary{--tw-gradient-from:#c3f5ff var(--tw-gradient-from-position);--tw-gradient-to:rgb(195 245 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-surface-container-lowest{--tw-gradient-from:#0e0e0f var(--tw-gradient-from-position);--tw-gradient-to:rgb(14 14 15 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-transparent{--tw-gradient-from:transparent var(--tw-gradient-from-position);--tw-gradient-to:rgb(0 0 0 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-\[\#00e5ff\]\/20{--tw-gradient-to:rgb(0 229 255 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), rgb(0 229 255 / 0.2) var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-transparent{--tw-gradient-to:rgb(0 0 0 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), transparent var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-primary-container{--tw-gradient-to:#00e5ff var(--tw-gradient-to-position)}.to-transparent{--tw-gradient-to:transparent var(--tw-gradient-to-position)}.object-cover{object-fit:cover}.p-3{padding:0.75rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.pb-1{padding-bottom:0.25rem}.pb-20{padding-bottom:5rem}.pt-32{padding-top:8rem}.text-center{text-align:center}.font-\[\'JetBrains_Mono\'\]{font-family:'JetBrains Mono'}.font-\[\'Space_Grotesk\'\]{font-family:'Space Grotesk'}.font-body{font-family:Inter}.font-headline{font-family:Space Grotesk}.font-label{font-family:JetBrains Mono}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-5xl{font-size:3rem;line-height:1}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-\[200px\]{font-size:200px}.text-\[9px\]{font-size:9px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.uppercase{text-transform:uppercase}.leading-relaxed{line-height:1.625}.tracking-\[0\.2em\]{letter-spacing:0.2em}.tracking-\[0\.3em\]{letter-spacing:0.3em}.tracking-tight{letter-spacing:-0.025em}.tracking-tighter{letter-spacing:-0.05em}.tracking-widest{letter-spacing:0.1em}.text-\[\#00e5ff\]{--tw-text-opacity:1;color:rgb(0 229 255 / var(--tw-text-opacity, 1))}.text-\[\#d6c9ff\]{--tw-text-opacity:1;color:rgb(214 201 255 / var(--tw-text-opacity, 1))}.text-on-background{--tw-text-opacity:1;color:rgb(229 226 227 / var(--tw-text-opacity, 1))}.text-on-primary{--tw-text-opacity:1;color:rgb(0 54 61 / var(--tw-text-opacity, 1))}.text-on-primary-container{--tw-text-opacity:1;color:rgb(0 98 110 / var(--tw-text-opacity, 1))}.text-on-surface-variant{--tw-text-opacity:1;color:rgb(186 201 204 / var(--tw-text-opacity, 1))}.text-primary-container{--tw-text-opacity:1;color:rgb(0 229 255 / var(--tw-text-opacity, 1))}.text-secondary{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-secondary-fixed{--tw-text-opacity:1;color:rgb(195 244 0 / var(--tw-text-opacity, 1))}.text-tertiary-fixed{--tw-text-opacity:1;color:rgb(232 222 255 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-white\/30{color:rgb(255 255 255 / 0.3)}.text-white\/60{color:rgb(255 255 255 / 0.6)}.opacity-20{opacity:0.2}.opacity-40{opacity:0.4}.opacity-5{opacity:0.05}.opacity-60{opacity:0.6}.opacity-75{opacity:0.75}.opacity-80{opacity:0.8}.shadow-\[0_0_20px_rgba\(0\2c 229\2c 255\2c 0\.1\)\]{--tw-shadow:0 0 20px rgba(0,229,255,0.1);--tw-shadow-colored:0 0 20px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.backdrop-blur-xl{--tw-backdrop-blur:blur(24px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.duration-700{transition-duration:700ms}.selection\:bg-primary-container *::selection{--tw-bg-opacity:1;background-color:rgb(0 229 255 / var(--tw-bg-opacity, 1))}.selection\:text-on-primary-container *::selection{--tw-text-opacity:1;color:rgb(0 98 110 / var(--tw-text-opacity, 1))}.selection\:bg-primary-container::selection{--tw-bg-opacity:1;background-color:rgb(0 229 255 / var(--tw-bg-opacity, 1))}.selection\:text-on-primary-container::selection{--tw-text-opacity:1;color:rgb(0 98 110 / var(--tw-text-opacity, 1))}.hover\:border-primary-container:hover{--tw-border-opacity:1;border-color:rgb(0 229 255 / var(--tw-border-opacity, 1))}.hover\:bg-white\/10:hover{background-color:rgb(255 255 255 / 0.1)}.hover\:bg-white\/5:hover{background-color:rgb(255 255 255 / 0.05)}.hover\:text-\[\#00e5ff\]:hover{--tw-text-opacity:1;color:rgb(0 229 255 / var(--tw-text-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:shadow-\[0_0_20px_rgba\(0\2c 229\2c 255\2c 0\.4\)\]:hover{--tw-shadow:0 0 20px rgba(0,229,255,0.4);--tw-shadow-colored:0 0 20px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.focus\:border-primary-container:focus{--tw-border-opacity:1;border-color:rgb(0 229 255 / var(--tw-border-opacity, 1))}.focus\:ring-0:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.active\:scale-95:active{--tw-scale-x:.95;--tw-scale-y:.95;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:scale-105{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:bg-primary-container\/30{background-color:rgb(0 229 255 / 0.3)}.group:hover .group-hover\:text-primary-container{--tw-text-opacity:1;color:rgb(0 229 255 / var(--tw-text-opacity, 1))}@media (min-width: 768px){.md\:col-span-2{grid-column:span 2 / span 2}.md\:flex{display:flex}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:text-8xl{font-size:6rem;line-height:1}}@media (min-width: 1024px){.lg\:col-span-12{grid-column:span 12 / span 12}.lg\:col-span-4{grid-column:span 4 / span 4}.lg\:col-span-8{grid-column:span 8 / span 8}.lg\:grid-cols-12{grid-template-columns:repeat(12, minmax(0, 1fr))}.lg\:p-16{padding:4rem}}</style><style>
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #00e5ff; }
-}
-
-.typewriter-container {
-  display: inline-block;
-  overflow: hidden;
-  border-right: .15em solid #00e5ff;
-  white-space: normal;
-  margin: 0 auto;
-  letter-spacing: .05em;
-  animation: blink-caret .75s step-end infinite;
-}
-
-.char-hidden {
-  opacity: 0;
-  display: inline-block;
-  width: 0;
-}
-
-.char-visible {
-  opacity: 1;
-  width: auto;
-  transition: opacity 0.05s ease-in;
-}
-</style></head>
-<body class="bg-background text-on-background font-body selection:bg-primary-container selection:text-on-primary-container" data-mode="connect">
-<!-- TopNavBar Component -->
-<nav class="fixed top-0 w-full z-50 bg-[#131314]/80 backdrop-blur-xl shadow-[0_0_20px_rgba(0,229,255,0.1)]">
-<div class="flex justify-between items-center px-8 py-4 max-w-[1440px] mx-auto relative">
-<div class="text-xl font-bold tracking-widest text-[#00e5ff] font-['Space_Grotesk'] uppercase">
-                ALCHEMIST_OS
-            </div>
-<div class="hidden md:flex items-center gap-8 font-['Space_Grotesk'] tracking-tighter uppercase text-xs">
-<a class="text-[#00e5ff] border-b-2 border-[#00e5ff] pb-1 cursor-crosshair active:scale-95 transition-all" href="#">ARCHIVE</a>
-<a class="text-white/60 hover:text-white transition-colors cursor-crosshair active:scale-95" href="#">STACK</a>
-<a class="text-white/60 hover:text-white transition-colors cursor-crosshair active:scale-95" href="#">MANIFESTO</a>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 glass-nav shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto w-full">
+<div class="text-2xl font-black text-sky-900 dark:text-sky-100 tracking-tighter font-headline">
+            H&amp;J Soft
+        </div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-sky-600 dark:text-sky-300 border-b-2 border-sky-600 dark:border-sky-300 pb-1 font-manrope tracking-tight font-semibold transition-all duration-300 ease-in-out hover:opacity-80 active:scale-95" href="#">Home</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-sky-900 dark:hover:text-sky-100 font-manrope tracking-tight font-semibold transition-all duration-300 ease-in-out hover:opacity-80 active:scale-95" href="#">Team</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-sky-900 dark:hover:text-sky-100 font-manrope tracking-tight font-semibold transition-all duration-300 ease-in-out hover:opacity-80 active:scale-95" href="#">Business</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-sky-900 dark:hover:text-sky-100 font-manrope tracking-tight font-semibold transition-all duration-300 ease-in-out hover:opacity-80 active:scale-95" href="#contact">Contact Us</a>
 </div>
-<div class="flex items-center gap-4 text-[#00e5ff]">
-<span class="material-symbols-outlined cursor-crosshair hover:glow-primary transition-all duration-300">terminal</span>
-</div>
-<div class="bg-gradient-to-r from-transparent via-[#00e5ff]/20 to-transparent h-[1px] w-full absolute bottom-0 left-0"></div>
+<button class="signature-gradient text-on-primary px-6 py-2.5 rounded-lg font-headline font-bold text-sm tracking-wide transition-all duration-300 ease-in-out hover:opacity-90 active:scale-95">
+            Get Started
+        </button>
 </div>
 </nav>
-<main class="pt-32 pb-20 px-6 max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12">
+<main class="pt-24">
 <!-- Hero Section -->
-<section class="lg:col-span-12 mb-12">
-<div class="relative overflow-hidden p-8 lg:p-16 border-l-4 border-primary-container bg-surface-container-lowest">
-<div class="font-label text-secondary-fixed text-sm mb-4 tracking-[0.2em] opacity-80 uppercase">SYSTEM_INITIALIZATION</div>
-<h1 class="font-headline text-5xl md:text-8xl font-bold tracking-tighter text-white mb-6">
-                    STILL_LEARNING<span class="text-primary-container">.exe</span></h1>
-<div class="max-w-2xl text-on-surface-variant font-body text-lg leading-relaxed mb-8"><span class="typewriter-container" id="typewriter-target">Synthesizing code, architectural patterns, and future-forward interfaces into digital gold. A transmission from the edge of the stack.</span></div>
-<div class="flex flex-wrap gap-4">
-<button class="bg-gradient-to-r from-primary to-primary-container text-on-primary font-label text-xs tracking-widest px-8 py-4 uppercase font-bold hover:shadow-[0_0_20px_rgba(0,229,255,0.4)] transition-all">
-                        INITIALIZE_READ()
+<section class="relative min-h-[870px] flex items-center px-8 overflow-hidden">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-7 z-10">
+<span class="inline-block px-4 py-1.5 rounded-full bg-secondary-container text-on-secondary-container text-xs font-bold tracking-widest mb-6">ESTABLISHED 2024</span>
+<h1 class="text-display-lg text-[4.5rem] font-headline font-extrabold text-primary leading-[1.05] tracking-[-0.03em] mb-8">
+                    Architecting <br/><span class="text-surface-tint">Digital Legacies</span>
+</h1>
+<p class="text-body-lg text-on-surface-variant max-w-xl text-lg leading-relaxed mb-10">
+                    We don't just write code; we engineer structural foundations for the future of global enterprise. High-precision software tailored for architectural excellence.
+                </p>
+<div class="flex gap-4">
+<button class="signature-gradient text-on-primary px-10 py-4 rounded-lg font-headline font-extrabold tracking-tight hover:opacity-90 transition-all shadow-lg shadow-primary/20">
+                        Build Your Vision
                     </button>
-<button class="border border-outline-variant text-secondary font-label text-xs tracking-widest px-8 py-4 uppercase hover:bg-white/5 transition-all">
-                        VIEW_REPOSITORY
+<button class="bg-surface-container-low text-primary px-10 py-4 rounded-lg font-headline font-bold border border-outline-variant/20 hover:bg-surface-container-high transition-all">
+                        View Methodology
                     </button>
 </div>
-<div class="absolute top-0 right-0 p-4 opacity-5 pointer-events-none select-none">
-<span class="material-symbols-outlined text-[200px]" style="font-variation-settings: 'FILL' 1;">deployed_code</span>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="aspect-[4/5] rounded-xl overflow-hidden shadow-2xl relative">
+<img class="w-full h-full object-cover" data-alt="Close-up of clean programming code on a monitor with soft blue ambient lighting reflecting on glass surfaces" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4cYVW6VbLAv9Gxh8nDVdz0XPspCkNrft_V1sDigM1NDmQQ2q-GOXhWqb68Osp34b_t6q6XjbBMfQpPzj8n9oBwQt9YWrxUaiKCPsWGGB3VG1xaPg0t9Z5GuhzFxZtR-UPn1swDizthyUR4ID8CNIkQzX-PPZNYWjUcY5O9EAKP5LbvJv7vCGjkFrRhe_mSD5cGgnnxCtKzss4UxsHza9M3VX6Th0zaNVmcddW7VtEYQeTH-vndF-fQpG0xOX3R24CL0akOc8wdpU"/>
+<div class="absolute inset-0 bg-primary/10 mix-blend-overlay"></div>
+</div>
+<!-- Decorative Element -->
+<div class="absolute -bottom-10 -left-10 w-48 h-48 bg-tertiary-container/10 rounded-full blur-3xl"></div>
 </div>
 </div>
 </section>
-<!-- Featured Posts -->
-<div class="lg:col-span-8 space-y-12">
-<div class="flex items-center justify-between mb-8">
-<h2 class="font-headline text-2xl font-bold tracking-tight uppercase flex items-center gap-3">
-<span class="w-8 h-[1px] bg-primary-container"></span>
-                    FEATURED_TRANSMISSIONS
-                </h2>
-<div class="font-label text-[10px] text-on-surface-variant tracking-[0.3em]">TOTAL_ENTRIES: 124</div>
+<!-- Business Expertise - Bento Grid -->
+<section class="py-32 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+<div class="max-w-2xl">
+<h2 class="text-4xl font-headline font-extrabold text-primary mb-6 tracking-tight">Our Technical Ecosystem</h2>
+<p class="text-on-surface-variant text-lg">Specialized business units dedicated to solving the most complex challenges in modern computation and scalable systems.</p>
 </div>
-<!-- Bento Post Grid -->
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-<!-- Post 1 -->
-<article class="glass-card group cursor-crosshair md:col-span-2 relative">
-<div class="h-80 w-full overflow-hidden relative">
-<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-60" data-alt="abstract visualization of interconnected neural nodes and flowing data streams in electric cyan and obsidian background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCak_LZ21a18_rm9NcvN6SXItoV_osGFOQb75zYusPz2WJnWE-QpjbyLfz53m8_Lu_HgbuXUvHTTIF90Ay7UxNQhfAlyls_ZcaJc3w7UnZRjrvtInyl5XcKReX6nSplwlZ-gJRLYb5VEeYYN2W2gW9w9hcoxRqboDuHLzo3FgAa6XWIOe_KM2N31NJcdnscrROEud5o4plRHcRBsWGqwK_9pFZWG7UuhZ_gs7zQo5QFs5W4fOcDEN_decuC-PITgsDzgth6gwngB9U"/>
-<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
-</div>
-<div class="p-8">
-<div class="flex gap-4 mb-4">
-<span class="font-label text-[10px] bg-surface-container-highest px-2 py-1 text-secondary-fixed">#MICROSERVICES</span>
-<span class="font-label text-[10px] text-on-surface-variant py-1 uppercase">2024.05.12 // 08_MIN_READ</span>
-</div>
-<h3 class="font-headline text-3xl font-bold text-white mb-4 group-hover:text-primary-container transition-colors">
-                            Architecting Scalable Microservices: Beyond the Service Mesh
-                        </h3>
-<p class="text-on-surface-variant mb-6 line-clamp-2">
-                            Exploring the emergent complexities of distributed systems and how alchemical architectural principles can stabilize chaos in high-traffic environments.
-                        </p>
-<div class="w-full h-[1px] bg-white/5 group-hover:bg-primary-container/30 transition-colors"></div>
-</div>
-</article>
-<!-- Post 2 -->
-<article class="glass-card group cursor-crosshair">
-<div class="h-48 w-full overflow-hidden relative">
-<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-40" data-alt="digital representation of artificial intelligence as a glowing iridescent sphere within a dark technical grid" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJjZQ0QOoO6ooZtSN5vKqwTAqxq1XR4kDE6ZKdehd6Pi0jSmuj4UqhquQvFirHJxbqAO5qxFkesKeYM-uUUqbQoD_Xz6Jo18Xo6lGqZfcPtMAg3nW2o-papDVd1DdCvmOi_zNVcUpXNVwacX0hDjIMSuZcr2LnenifFbT8h1H4LwNqO1HtC7qVtzoi_-fHhZhAYwKIloQt9uF_dHymYAOMFyF0M3kQ_zrOWnapP3QRC_TGvW3-eh7NFeMYAZOvXmfmp_H6PJVIS5M"/>
-</div>
-<div class="p-6">
-<div class="flex gap-4 mb-3">
-<span class="font-label text-[10px] bg-surface-container-highest px-2 py-1 text-secondary-fixed">#AI_UX</span>
-</div>
-<h3 class="font-headline text-xl font-bold text-white mb-3 group-hover:text-primary-container transition-colors">
-                            The Future of AI Interfaces: Kinetic Depth &amp; Intent
-                        </h3>
-<div class="text-on-surface-variant font-label text-[10px] tracking-widest mt-4 flex items-center justify-between">
-<span>READ_ENTRY</span>
-<span class="material-symbols-outlined text-sm">arrow_forward</span>
+<div class="flex items-center gap-2 text-on-tertiary-fixed-variant font-bold tracking-tight">
+<span>EXPLORE SERVICES</span>
+<span class="material-symbols-outlined">arrow_right_alt</span>
 </div>
 </div>
-</article>
-<!-- Post 3 -->
-<article class="glass-card group cursor-crosshair">
-<div class="h-48 w-full overflow-hidden relative">
-<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-40" data-alt="close up of glowing neon green circuit board traces and high precision hardware components in low light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDL7YOcbMg9iURoLF5NRazIYWd8Zy31zde3Mm3BsNowPoNs8oFStr38QSSmqFSXXlzMcmSzFIXQwHQbYJxULRT1PAetQpBHe_WpRuAuwkv4LzVYsoOY-qbatO6OH6mjZxjjVjDKWuFPsJhyD3nUv770Ubd937puyLpIfSywnFizN2bf2eZ3UmVvSOzK6kqFnHXOYRxJa_LIsrP7FgeUSQjRF_FPgSAzqeIwgHSOJD5rx2XYEKaunr1igS2htbRTbvK5Rx8Asm62gtY"/>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+<!-- Large Card -->
+<div class="md:col-span-2 md:row-span-2 bg-surface-container-lowest rounded-xl p-10 flex flex-col justify-between shadow-sm border border-outline-variant/10 hover:shadow-md transition-shadow">
+<div>
+<span class="material-symbols-outlined text-4xl text-primary mb-6" data-icon="architecture">architecture</span>
+<h3 class="text-2xl font-headline font-bold text-primary mb-4">Core Infrastructure</h3>
+<p class="text-on-surface-variant leading-relaxed mb-8">Building the backbone of enterprise applications with modular, scalable, and resilient architectural patterns.</p>
 </div>
-<div class="p-6">
-<div class="flex gap-4 mb-3">
-<span class="font-label text-[10px] bg-surface-container-highest px-2 py-1 text-secondary-fixed">#CYBER_SEC</span>
-</div>
-<h3 class="font-headline text-xl font-bold text-white mb-3 group-hover:text-primary-container transition-colors">
-                            Hardening the Perimeter: Encrypted State Machines
-                        </h3>
-<div class="text-on-surface-variant font-label text-[10px] tracking-widest mt-4 flex items-center justify-between">
-<span>READ_ENTRY</span>
-<span class="material-symbols-outlined text-sm">arrow_forward</span>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-tertiary-container text-on-tertiary-container text-xs font-bold rounded-md">SCALABILITY</span>
+<span class="px-3 py-1 bg-tertiary-container text-on-tertiary-container text-xs font-bold rounded-md">RESILIENCE</span>
 </div>
 </div>
-</article>
+<!-- Medium Card -->
+<div class="md:col-span-2 bg-surface-container-lowest rounded-xl p-8 shadow-sm border border-outline-variant/10 hover:shadow-md transition-shadow flex items-center gap-8">
+<div class="flex-1">
+<h3 class="text-xl font-headline font-bold text-primary mb-2">Cloud Strategy</h3>
+<p class="text-on-surface-variant text-sm">Optimizing deployment flows and multi-cloud environments.</p>
+</div>
+<div class="w-24 h-24 bg-secondary-container rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-3xl text-on-secondary-container" data-icon="cloud_done">cloud_done</span>
 </div>
 </div>
-<!-- Sidebar Section -->
-<aside class="lg:col-span-4 space-y-8">
-<!-- Status Widget -->
-<div class="bg-surface-container-low p-6 border-l-2 border-secondary-fixed">
-<div class="font-label text-[10px] tracking-[0.2em] text-on-surface-variant mb-4 uppercase">SYSTEM_STATUS</div>
-<div class="flex items-center gap-3 mb-6">
-<span class="relative flex h-3 w-3">
-<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary-fixed opacity-75"></span>
-<span class="relative inline-flex rounded-full h-3 w-3 bg-secondary-fixed"></span>
-</span>
-<span class="font-headline text-lg font-bold text-white uppercase glow-text-lime">Coding: ALCHEMIST_OS</span>
+<!-- Small Card 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-sm border border-outline-variant/10 hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-primary mb-4" data-icon="security">security</span>
+<h3 class="font-headline font-bold text-primary mb-2">Security</h3>
+<p class="text-on-surface-variant text-sm">End-to-end encryption and audit protocols.</p>
 </div>
-<div class="space-y-4 font-label text-[11px]">
-<div class="flex justify-between">
-<span class="text-on-surface-variant">CPU_LOAD</span>
-<span class="text-secondary-fixed">14.2%</span>
-</div>
-<div class="w-full bg-surface-container-highest h-[2px]">
-<div class="bg-secondary-fixed w-[14.2%] h-full"></div>
-</div>
-<div class="flex justify-between">
-<span class="text-on-surface-variant">UPTIME</span>
-<span class="text-white">1,248:12:04</span>
+<!-- Small Card 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-sm border border-outline-variant/10 hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-primary mb-4" data-icon="insights">insights</span>
+<h3 class="font-headline font-bold text-primary mb-2">Analytics</h3>
+<p class="text-on-surface-variant text-sm">Data processing and predictive modeling.</p>
 </div>
 </div>
 </div>
-<!-- Tech Stack Widget -->
-<div class="glass-card p-6">
-<h3 class="font-headline text-sm font-bold text-white tracking-widest mb-6 uppercase flex items-center gap-2">
-<span class="material-symbols-outlined text-primary-container text-lg">stacks</span>
-                    ACTIVE_TECH_STACK
-                </h3>
+</section>
+<!-- Team & Methodology -->
+<section class="py-32 bg-surface">
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+<div class="order-2 lg:order-1 relative">
 <div class="grid grid-cols-2 gap-4">
-<div class="p-3 bg-white/5 hover:bg-white/10 transition-colors flex flex-col items-center gap-2 border-b border-transparent hover:border-primary-container"><a class="w-full h-full flex flex-col items-center gap-2" href="./typescript_terminal_01.html">
-<span class="material-symbols-outlined text-primary-container" style="font-variation-settings: 'FILL' 1;">terminal</span>
-<span class="font-label text-[9px] uppercase tracking-tighter">TypeScript</span>
-</a></div>
-<div class="p-3 bg-white/5 hover:bg-white/10 transition-colors flex flex-col items-center gap-2 border-b border-transparent hover:border-primary-container">
-<span class="material-symbols-outlined text-secondary-fixed" style="font-variation-settings: 'FILL' 1;">database</span>
-<span class="font-label text-[9px] uppercase tracking-tighter">PostgreSQL</span>
+<div class="aspect-square rounded-xl overflow-hidden shadow-lg">
+<img class="w-full h-full object-cover" data-alt="Professional team collaborating in a modern office with sleek minimalist furniture and glass walls" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcD4KpjOvENmeDwCIYiOE7jNUyT9fMTiflS_3fBPD7GMurXRWfrIWWq0Hh-cDdH1KZIbO1_plmTU4GLYzUrtXGX6K0nqBsu_oApFFU_z6QJoVOyCD7HMO4pqqAe7OLbmNAONiFIW6i3-d18peUNvbhF3jrKzI64QKAxa2E0M4KzfxszfA92fsDNWmKagE8F1K674EtKU5wKYiiARtyKqohhCCueqc2_F48hbrIu93jTH9lqQOhgb3bnj_9LW5MlH65Uj2n9wwZcP4"/>
 </div>
-<div class="p-3 bg-white/5 hover:bg-white/10 transition-colors flex flex-col items-center gap-2 border-b border-transparent hover:border-primary-container">
-<span class="material-symbols-outlined text-tertiary-fixed" style="font-variation-settings: 'FILL' 1;">cloud</span>
-<span class="font-label text-[9px] uppercase tracking-tighter">Kubernetes</span>
-</div>
-<div class="p-3 bg-white/5 hover:bg-white/10 transition-colors flex flex-col items-center gap-2 border-b border-transparent hover:border-primary-container">
-<span class="material-symbols-outlined text-white" style="font-variation-settings: 'FILL' 1;">memory</span>
-<span class="font-label text-[9px] uppercase tracking-tighter">Rust</span>
+<div class="aspect-square rounded-xl overflow-hidden shadow-lg mt-8">
+<img class="w-full h-full object-cover" data-alt="Diverse software engineering experts discussing architecture on a large whiteboard in a sunlit studio" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6XTGwVPLfD1Nv-BirElpP1JicydeOLjA_7LMsHVd0Sip847LCA9f38P-T_ntwlaPBl0fW2U3_vdHl4XvLTwxraR5-6TNgcz7bPYb43a9Kd70cXb6r8AnEWDb6FIHefXEMQHHhWn6_4qCLGr7FYsz0tB1KOhFKu171KIJwfQLjk0YqNaZrMUvjSYSjZ6GSe1WzlLnOQz_QjGHOmYnM9QLBYdDogdfGamqJqldkjG1KNwvjW2JkHod3cBmt6dyfcsxLNhNAni6zVOk"/>
 </div>
 </div>
+<div class="absolute -top-6 -right-6 w-32 h-32 border-t-4 border-r-4 border-primary/10 rounded-tr-3xl"></div>
 </div>
-<!-- RSS Widget -->
-<div class="p-6 bg-surface-container-highest flex flex-col items-center text-center">
-<span class="material-symbols-outlined text-4xl text-primary-container mb-4">rss_feed</span>
-<p class="font-headline text-lg font-medium text-white mb-4">Sync with the Source</p>
-<input class="w-full bg-surface-container-lowest border-0 border-b border-outline text-white font-label text-xs p-3 mb-4 focus:ring-0 focus:border-primary-container transition-all" placeholder="EMAIL_ADDR@HOST.COM" type="email"/>
-<button class="w-full bg-primary-container text-on-primary-container font-label text-[10px] font-bold py-3 uppercase tracking-widest">
-                    SUBSCRIBE_SIGNAL
+<div class="order-1 lg:order-2">
+<h2 class="text-4xl font-headline font-extrabold text-primary mb-8 tracking-tight">The Minds Behind <br/>The Machine</h2>
+<p class="text-on-surface-variant text-lg leading-relaxed mb-8">
+                    Our team is composed of senior architects and domain experts who have built systems for Fortune 500 giants and disruptive startups alike. We believe in the power of shared intelligence and rigorous peer review.
+                </p>
+<ul class="space-y-6">
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary" data-icon="check_circle">check_circle</span>
+<div>
+<h4 class="font-bold text-primary">Senior-Only Talent</h4>
+<p class="text-sm text-on-surface-variant">Every line of code is touched by an industry veteran.</p>
+</div>
+</li>
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary" data-icon="check_circle">check_circle</span>
+<div>
+<h4 class="font-bold text-primary">Agile Precision</h4>
+<p class="text-sm text-on-surface-variant">Continuous delivery without compromising structural integrity.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-24 px-8">
+<div class="max-w-7xl mx-auto signature-gradient rounded-xl p-16 text-center relative overflow-hidden">
+<div class="relative z-10">
+<h2 class="text-4xl font-headline font-black text-on-primary mb-6">Ready to Engineer Your Future?</h2>
+<p class="text-on-primary-container text-lg max-w-2xl mx-auto mb-10">Join the partners who have transformed their digital infrastructure into a lasting competitive advantage.</p>
+<button class="bg-surface text-primary px-12 py-4 rounded-lg font-headline font-extrabold tracking-tight hover:bg-surface-container-low transition-all">
+                    Schedule an Architectural Audit
                 </button>
 </div>
-</aside>
-</main>
-<!-- Footer Component -->
-<footer class="w-full py-12 mt-20 bg-[#0e0e0f] border-t border-white/5">
-<div class="flex flex-col items-center gap-6 px-8 max-w-[1440px] mx-auto">
-<div class="font-['JetBrains_Mono'] text-[10px] tracking-widest uppercase text-[#d6c9ff]">
-                ©2024 DIGITAL_ALCHEMIST // SHRDLU_STAMP_771
-            </div>
-<div class="flex gap-8">
-<a class="font-['JetBrains_Mono'] text-[10px] tracking-widest uppercase text-white/30 hover:text-[#00e5ff] transition-colors" href="#">GITHUB</a>
-<a class="font-['JetBrains_Mono'] text-[10px] tracking-widest uppercase text-white/30 hover:text-[#00e5ff] transition-colors" href="#">SOURCE</a>
-<a class="font-['JetBrains_Mono'] text-[10px] tracking-widest uppercase text-white/30 hover:text-[#00e5ff] transition-colors" href="#">RSS</a>
-<a class="font-['JetBrains_Mono'] text-[10px] tracking-widest uppercase text-white/30 hover:text-[#00e5ff] transition-colors" href="#">LEGAL</a>
+<!-- Abstract Vector Background -->
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+<svg height="100%" preserveaspectratio="none" viewbox="0 0 100 100" width="100%">
+<path d="M0 0 L100 100 M100 0 L0 100" stroke="white" stroke-width="0.1"></path>
+<circle cx="50" cy="50" fill="none" r="40" stroke="white" stroke-width="0.1"></circle>
+</svg>
 </div>
-<div class="mt-4 opacity-20">
-<span class="material-symbols-outlined text-4xl text-[#d6c9ff]" style="font-variation-settings: 'FILL' 1;">token</span>
+</div>
+</section>
+<!-- Contact Us / Find Us Section -->
+<section class="py-32 bg-surface-container-low border-t border-outline-variant/10" id="contact">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="text-4xl font-headline font-extrabold text-primary mb-8 tracking-tight">Contact Us</h2>
+<p class="text-on-surface-variant text-lg leading-relaxed mb-10">
+                        Interested in partnering with us? Visit our architectural studio or reach out to start a conversation about your next digital legacy.
+                    </p>
+<div class="space-y-8">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary p-2 bg-primary-fixed rounded-lg" data-icon="location_on">location_on</span>
+<div>
+<h4 class="font-bold text-primary text-lg">Our Headquarters</h4>
+<p class="text-on-surface-variant">1200 Innovation Way, Suite 400<br/>San Francisco, CA 94105</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary p-2 bg-primary-fixed rounded-lg" data-icon="mail">mail</span>
+<div>
+<h4 class="font-bold text-primary text-lg">Email Us</h4>
+<p class="text-on-surface-variant">solutions@hjsoft.com</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary p-2 bg-primary-fixed rounded-lg" data-icon="call">call</span>
+<div>
+<h4 class="font-bold text-primary text-lg">Call Support</h4>
+<p class="text-on-surface-variant">+1 (800) 555-0198</p>
+</div>
+</div>
+</div>
+</div>
+<div class="relative group">
+<div class="absolute -inset-2 bg-primary/5 rounded-2xl blur-xl group-hover:bg-primary/10 transition-all"></div>
+<div class="relative bg-surface rounded-xl overflow-hidden shadow-xl aspect-video border border-outline-variant/20">
+<!-- Placeholder for Map -->
+<div class="w-full h-full bg-slate-200 relative">
+<img alt="Map visualization showing corporate location" class="w-full h-full object-cover opacity-80 grayscale mix-blend-multiply" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9R_jS1Yy9_h5EwB0_M1fWw4iN7s7oY7P8z5v4u3t2r1q0p9o8n7m6l5k4j3i2h1g0f9e8d7c6b5a4"/>
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="bg-primary text-on-primary p-4 rounded-full shadow-2xl animate-bounce">
+<span class="material-symbols-outlined" data-icon="location_on">location_on</span>
+</div>
+</div>
+<!-- Vector Overlay consistent with brand -->
+<div class="absolute inset-0 pointer-events-none opacity-20">
+<svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><pattern height="20" id="grid" patternunits="userSpaceOnUse" width="20"><path d="M 20 0 L 0 0 0 20" fill="none" stroke="currentColor" stroke-width="0.5"></path></pattern></defs>
+<rect fill="url(#grid)" height="100%" width="100%"></rect>
+</svg>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full border-t border-slate-200/20 bg-slate-100 dark:bg-slate-900">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 py-16 w-full max-w-7xl mx-auto">
+<div class="mb-8 md:mb-0">
+<div class="font-manrope font-bold text-lg text-sky-900 dark:text-sky-100 mb-2">H&amp;J Soft</div>
+<div class="font-inter text-sm leading-relaxed text-slate-500 dark:text-slate-400">© 2024 H&amp;J Soft. Architecting Digital Legacies.</div>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="font-inter text-sm leading-relaxed text-slate-500 dark:text-slate-400 hover:text-sky-500 dark:hover:text-sky-300 transition-colors" href="#">Privacy Policy</a>
+<a class="font-inter text-sm leading-relaxed text-slate-500 dark:text-slate-400 hover:text-sky-500 dark:hover:text-sky-300 transition-colors" href="#">Terms of Service</a>
+<a class="font-inter text-sm leading-relaxed text-slate-500 dark:text-slate-400 hover:text-sky-500 dark:hover:text-sky-300 transition-colors" href="#">Cookie Policy</a>
+<a class="font-inter text-sm leading-relaxed text-slate-500 dark:text-slate-400 hover:text-sky-500 dark:hover:text-sky-300 transition-colors" href="#">Global Offices</a>
 </div>
 </div>
 </footer>
-<script>
-(function() {
-    const target = document.getElementById('typewriter-target');
-    const text = target.innerText;
-    target.innerHTML = '';
-    
-    let i = 0;
-    function type() {
-        if (i < text.length) {
-            const char = text.charAt(i);
-            const span = document.createElement('span');
-            span.textContent = char === ' ' ? '\u00A0' : char;
-            target.appendChild(span);
-            i++;
-            setTimeout(type, 30 + Math.random() * 40);
-        } else {
-            target.style.borderRight = 'none';
-        }
-    }
-    
-    // Start typing after a small delay
-    setTimeout(type, 1000);
-})();
-</script></body></html>
+</body></html>
