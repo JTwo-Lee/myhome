@@ -318,5 +318,15 @@
     "position": "top",
     "lang": "ko",
     "description": "잠언 1장 강해 및 실천적 교훈"
-  }
+  },
+  {
+"bookcd": 45,
+"bookName": "로마서",
+"chapter": 1,
+"title": "로마서강해 1장",
+"videoUrl": "https://www.youtube.com/watch?v=rcfJ3j1Nt3s",
+"position": "top",
+"lang": "ko",
+"description": "로마서 1장 강해 및 실천적 교훈"
+}
 ]
