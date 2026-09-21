@@ -994,22 +994,22 @@
     "bookcd": 59,
     "bookName": "야고보서",
     "chapter": 1,
-    "title": "야고보서 강해(3) - 야고보서 1:19-27",
-    "videoUrl": "https://www.youtube.com/watch?v=zbupEr-0TZQ",
-    "position": "bottom",
-    "lang": "ko",
-    "description": "2025.07.23 새벽기도회 (약 1:19-27) - 박만호 담임목사"
-  },
-  {
-    "churchcd": "0001",
-    "bookcd": 59,
-    "bookName": "야고보서",
-    "chapter": 1,
     "title": "야고보서 강해(2) - 야고보서 1:12-18",
     "videoUrl": "https://www.youtube.com/watch?v=xtN6QeXO-6g",
     "position": "bottom",
     "lang": "ko",
     "description": "2025.07.09 새벽기도회 (약 1:12-18) - 박만호 담임목사"
+  },  
+  {
+    "churchcd": "0001",
+    "bookcd": 59,
+    "bookName": "야고보서",
+    "chapter": 1,
+    "title": "야고보서 강해(3) - 야고보서 1:19-27",
+    "videoUrl": "https://www.youtube.com/watch?v=zbupEr-0TZQ",
+    "position": "bottom",
+    "lang": "ko",
+    "description": "2025.07.23 새벽기도회 (약 1:19-27) - 박만호 담임목사"
   },
   {
     "churchcd": "0001",
