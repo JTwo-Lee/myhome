@@ -356,21 +356,176 @@
     "bookcd": 45,
     "bookName": "로마서",
     "chapter": 1,
-    "title": "로마서강해 1장",
+    "title": "[로마서 강해 1] 하나님의 복음을 위하여",
     "videoUrl": "https://www.youtube.com/watch?v=rcfJ3j1Nt3s",
     "position": "top",
     "lang": "ko",
-    "description": "로마서 1장 강해 및 실천적 교훈"
+    "description": "2026.06.07 주일 3부설교 (롬 1:1-7) - 박만호 담임목사"
   },
   {
-  "churchcd": "0001",  
-  "bookcd": 45,
-  "bookName": "로마서",
-  "chapter": 2,
-  "title": "로마서강해 2장",
-  "videoUrl": "https://www.youtube.com/watch?v=gpsFOwIAB6A",
-  "position": "top",
-  "lang": "ko",
-  "description": "로마서 2장 강해 및 실천적 교훈"
+    "churchcd": "0001",
+    "bookcd": 45,
+    "bookName": "로마서",
+    "chapter": 1,
+    "title": "[로마서 강해 2] 로마에 있는 너희에게도",
+    "videoUrl": "https://www.youtube.com/watch?v=gpsFOwIAB6A",
+    "position": "bottom",
+    "lang": "ko",
+    "description": "2026.06.14 주일 3부설교 (롬 1:8-17) - 박만호 담임목사"
+  },
+  {
+    "churchcd": "0001",
+    "bookcd": 45,
+    "bookName": "로마서",
+    "chapter": 1,
+    "title": "[로마서 강해 3] 내버려 두사",
+    "videoUrl": "https://www.youtube.com/watch?v=ly8lmnZ2d4o",
+    "position": "bottom",
+    "lang": "ko",
+    "description": "2026.06.21 주일 3부설교 (롬 1:18-32) - 박만호 담임목사"
+  },
+    {
+    "churchcd": "0001",
+    "bookcd": 45,
+    "bookName": "로마서",
+    "chapter": 2,
+    "title": "[로마서 강해 5] 표면적 유대인, 이면적 유대인",
+    "videoUrl": "https://www.youtube.com/watch?v=O1u6EZnsghk",
+    "position": "top",
+    "lang": "ko",
+    "description": "2026.07.05 주일 3부설교 (롬 2:17-29) - 박만호 담임목사"
+  },
+  {
+    "churchcd": "0001",
+    "bookcd": 45,
+    "bookName": "로마서",
+    "chapter": 2,
+    "title": "[로마서 강해 4] 하나님 앞에 선 인간",
+    "videoUrl": "https://www.youtube.com/watch?v=-JFqij_Vdak",
+    "position": "top",
+    "lang": "ko",
+    "description": "2026.06.28 주일 3부설교 (롬 2:1-16) - 박만호 담임목사"
+  },
+   {
+    "churchcd": "0001",
+    "bookcd": 45,
+    "bookName": "로마서",
+    "chapter": 8,
+    "title": "[로마서 강해 16] 두 가지 삶의 방식",
+    "videoUrl": "https://www.youtube.com/watch?v=zUwvRPiu2zc",
+    "position": "top",
+    "lang": "ko",
+    "description": "2026.09.20 주일 3부설교 (롬 8:1-11) - 박만호 담임목사"
+  },
+  {
+    "churchcd": "0001",
+    "bookcd": 45,
+    "bookName": "로마서",
+    "chapter": 7,
+    "title": "[로마서 강해 15] 내 속엔 내가 너무도 많아",
+    "videoUrl": "https://www.youtube.com/watch?v=GjQA7brkA0E",
+    "position": "bottom",
+    "lang": "ko",
+    "description": "2026.09.13 주일 3부설교 (롬 7:13-25) - 박만호 담임목사"
+  },
+  {
+    "churchcd": "0001",
+    "bookcd": 45,
+    "bookName": "로마서",
+    "chapter": 7,
+    "title": "[로마서 강해 14] 영의 새로운 것으로 섬길 것이요",
+    "videoUrl": "https://www.youtube.com/watch?v=peFXpry-3W4",
+    "position": "top",
+    "lang": "ko",
+    "description": "2026.09.06 주일 3부설교 (롬 7:1-12) - 박만호 담임목사"
+  },
+  {
+    "churchcd": "0001",
+    "bookcd": 45,
+    "bookName": "로마서",
+    "chapter": 6,
+    "title": "[로마서 강해 13] 그러나 이제는 2",
+    "videoUrl": "https://www.youtube.com/watch?v=WkNGgIyG1HQ",
+    "position": "bottom",
+    "lang": "ko",
+    "description": "2026.08.30 주일 3부설교 (롬 6:15-23) - 박만호 담임목사"
+  },
+  {
+    "churchcd": "0001",
+    "bookcd": 45,
+    "bookName": "로마서",
+    "chapter": 6,
+    "title": "[로마서 강해 12] 그리스도 예수와 합하여",
+    "videoUrl": "https://www.youtube.com/watch?v=tRJ-OMBNeG4",
+    "position": "top",
+    "lang": "ko",
+    "description": "2026.08.23 주일 3부설교 (롬 6:1-14) - 박만호 담임목사"
+  },
+  {
+    "churchcd": "0001",
+    "bookcd": 45,
+    "bookName": "로마서",
+    "chapter": 5,
+    "title": "[로마서 강해 11] 한 사람",
+    "videoUrl": "https://www.youtube.com/watch?v=A-PFk2SgDCI",
+    "position": "bottom",
+    "lang": "ko",
+    "description": "2026.08.16 주일 3부설교 (롬 5:12-21) - 박만호 담임목사"
+  },
+  {
+    "churchcd": "0001",
+    "bookcd": 45,
+    "bookName": "로마서",
+    "chapter": 5,
+    "title": "[로마서 강해 10] 믿음·소망·사랑",
+    "videoUrl": "https://www.youtube.com/watch?v=T9Xb406IxKw",
+    "position": "top",
+    "lang": "ko",
+    "description": "2026.08.09 주일 3부설교 (롬 5:1-11) - 박만호 담임목사"
+  },
+  {
+    "churchcd": "0001",
+    "bookcd": 45,
+    "bookName": "로마서",
+    "chapter": 4,
+    "title": "[로마서 강해 9] 믿음은!",
+    "videoUrl": "https://www.youtube.com/watch?v=VCipTuOz_Mo",
+    "position": "bottom",
+    "lang": "ko",
+    "description": "2026.08.02 주일 3부설교 (롬 4:16-25) - 박만호 담임목사"
+  },
+  {
+    "churchcd": "0001",
+    "bookcd": 45,
+    "bookName": "로마서",
+    "chapter": 4,
+    "title": "[로마서 강해 8] 그의 믿음을 의로 여기시나니",
+    "videoUrl": "https://www.youtube.com/watch?v=hwgp4oZsdBM",
+    "position": "top",
+    "lang": "ko",
+    "description": "2026.07.26 주일 3부설교 (롬 4:1-15) - 박만호 담임목사"
+  },
+  {
+    "churchcd": "0001",
+    "bookcd": 45,
+    "bookName": "로마서",
+    "chapter": 3,
+    "title": "[로마서 강해 7] 그러나 이제는",
+    "videoUrl": "https://www.youtube.com/watch?v=MSG27Ch4sZ8",
+    "position": "bottom",
+    "lang": "ko",
+    "description": "2026.07.19 주일 3부설교 (롬 3:19-31) - 박만호 담임목사"
+  },
+  {
+    "churchcd": "0001",
+    "bookcd": 45,
+    "bookName": "로마서",
+    "chapter": 3,
+    "title": "[로마서 강해 6] 우리는 나으냐?",
+    "videoUrl": "https://www.youtube.com/watch?v=n6b93V5LNho",
+    "position": "top",
+    "lang": "ko",
+    "description": "2026.07.12 주일 3부설교 (롬 3:1-18) - 박만호 담임목사"
   }
+
 ]
