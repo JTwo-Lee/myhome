@@ -1,5 +1,6 @@
 [
   {
+    "bookcd": 2,
     "bookName": "출애굽기",
     "chapter": 1,
     "title": "출애굽기 개요(1-18장)",
@@ -9,6 +10,7 @@
     "description": "출애굽기 전체 구조와 1-18장 주요 내용 요약"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 31,
     "title": "잠언강해 31장",
@@ -18,6 +20,7 @@
     "description": "잠언 31장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 30,
     "title": "잠언강해 30장",
@@ -27,6 +30,7 @@
     "description": "잠언 30장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 29,
     "title": "잠언강해 29장",
@@ -36,6 +40,7 @@
     "description": "잠언 29장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 28,
     "title": "잠언강해 28장",
@@ -45,6 +50,7 @@
     "description": "잠언 28장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 27,
     "title": "잠언강해 27장",
@@ -54,6 +60,7 @@
     "description": "잠언 27장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 26,
     "title": "잠언강해 26장",
@@ -63,6 +70,7 @@
     "description": "잠언 26장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 25,
     "title": "잠언강해 25장",
@@ -72,6 +80,7 @@
     "description": "잠언 25장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 24,
     "title": "잠언강해 24장",
@@ -81,6 +90,7 @@
     "description": "잠언 24장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 23,
     "title": "잠언강해 23장",
@@ -90,6 +100,7 @@
     "description": "잠언 23장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 22,
     "title": "잠언강해 22장",
@@ -99,6 +110,7 @@
     "description": "잠언 22장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 21,
     "title": "잠언강해 21장",
@@ -108,6 +120,7 @@
     "description": "잠언 21장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 20,
     "title": "잠언강해 20장",
@@ -117,6 +130,7 @@
     "description": "잠언 20장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 19,
     "title": "잠언강해 19장",
@@ -126,6 +140,7 @@
     "description": "잠언 19장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 18,
     "title": "잠언강해 18장",
@@ -135,6 +150,7 @@
     "description": "잠언 18장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 17,
     "title": "잠언강해 17장",
@@ -144,6 +160,7 @@
     "description": "잠언 17장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 16,
     "title": "잠언강해 16장",
@@ -153,6 +170,7 @@
     "description": "잠언 16장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 15,
     "title": "잠언강해 15장",
@@ -162,6 +180,7 @@
     "description": "잠언 15장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 14,
     "title": "잠언강해 14장",
@@ -171,6 +190,7 @@
     "description": "잠언 14장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 13,
     "title": "잠언강해 13장",
@@ -180,6 +200,7 @@
     "description": "잠언 13장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 12,
     "title": "잠언강해 12장",
@@ -189,6 +210,7 @@
     "description": "잠언 12장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 11,
     "title": "잠언강해 11장",
@@ -198,6 +220,7 @@
     "description": "잠언 11장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 10,
     "title": "잠언강해 10장",
@@ -207,6 +230,7 @@
     "description": "잠언 10장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 9,
     "title": "잠언강해 9장",
@@ -216,6 +240,7 @@
     "description": "잠언 9장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 8,
     "title": "잠언강해 8장",
@@ -225,6 +250,7 @@
     "description": "잠언 8장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 7,
     "title": "잠언강해 7장",
@@ -234,6 +260,7 @@
     "description": "잠언 7장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 6,
     "title": "잠언강해 6장",
@@ -243,6 +270,7 @@
     "description": "잠언 6장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 5,
     "title": "잠언강해 5장",
@@ -252,6 +280,7 @@
     "description": "잠언 5장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 4,
     "title": "잠언강해 4장",
@@ -261,6 +290,7 @@
     "description": "잠언 4장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 3,
     "title": "잠언강해 3장",
@@ -270,6 +300,7 @@
     "description": "잠언 3장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 2,
     "title": "잠언강해 2장",
@@ -279,6 +310,7 @@
     "description": "잠언 2장 강해 및 실천적 교훈"
   },
   {
+    "bookcd": 20,
     "bookName": "잠언",
     "chapter": 1,
     "title": "잠언강해 1장",
