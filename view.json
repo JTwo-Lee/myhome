@@ -328,5 +328,19 @@
 "position": "top",
 "lang": "ko",
 "description": "로마서 1장 강해 및 실천적 교훈"
-}
+},
+
+  {
+"bookcd": 45,
+"bookName": "로마서",
+"chapter": 2,
+"title": "로마서강해 2장",
+"videoUrl": "https://www.youtube.com/watch?v=gpsFOwIAB6A",
+"position": "top",
+"lang": "ko",
+"description": "로마서 2장 강해 및 실천적 교훈"
+},
+  
+
+  
 ]
